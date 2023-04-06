@@ -39,3 +39,15 @@
 // console.log(math);
 // var right =(3+8)*(5/9)+(15-99);
 // console.log(right);
+
+// SMUIT
+// let randomNumber = Math.random();
+// randomNumber = randomNumber * 10;
+// let rounded = Math.round(randomNumber);
+// console.log(rounded);
+
+// Task1 4/6/23
+var zakatPercentage = 0.025;
+var input = +prompt("Enter your value","Must be a number");
+var result = zakatPercentage * input;
+alert("Your Zakat is "+result);
