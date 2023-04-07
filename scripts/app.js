@@ -40,16 +40,73 @@
 // var right =(3+8)*(5/9)+(15-99);
 // console.log(right);
 
-// SMUIT
+// SMIT
 // let randomNumber = Math.random();
 // randomNumber = randomNumber * 10;
 // let rounded = Math.round(randomNumber);
 // console.log(rounded);
 
 // Task1 4/6/23
-var zakatPercentage = 0.025;
+// var zakatPercentage = 0.025;
 // Here + sign convert the prompt(string) into number or we may use Number or parseInt before the prompt
-var input = +prompt("Enter your value","Must be a number");
-var result = zakatPercentage * input;
- alert("Your Zakat is "+result); 
+// var input = +prompt("Enter your value","Must be a number");
+// var result = zakatPercentage * input;
+//  alert("Your Zakat is "+result); 
 //  upper + shows concatenation
+
+
+// SMIT
+// Functions
+// function greetUser() {
+//     alert("Hello, there.");
+// };
+// greetUser();
+
+// function name(fname,lastName){
+//     console.log("Musfirah","Waseem");
+// }
+// name();
+
+// function greet(firstName,lastName){
+//     console.log("Assalam o alikum "+ firstName,lastName);
+// };
+// greet("Musfirah","Waseem");
+// greet("Muhammad","Huzaifa");
+
+// Return functions
+// function sum(val1,val2){
+//     return val1+val2
+// };
+// let result= sum(34,76);
+// console.log(result);
+
+
+// function subjects(DBMS,Astronomy,RemoteSciences,GIS){
+//     let a=  DBMS+Astronomy+RemoteSciences+GIS;
+//     return a;
+// }
+
+// let total = subjects(78,62,83,94);
+// console.log(total);
+// let b= subjects(77,56,78,87);
+// console.log(b);
+
+
+// function percentage(tm){
+//     return tm/400 *100;
+// };
+// let Per = percentage(total);
+// console.log(Per+"%") ;
+// let bPer =percentage(b);  
+// console.log(bPer+"%");
+
+// function greet(firstName,lastName){
+//     if(Per >= 70){
+//         console.log("Congratulations "+firstName,lastName + " You did really well!" );
+//     }
+// }
+// greet("Musfirah","Waseem");
+
+
+
+
