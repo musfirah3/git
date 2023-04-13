@@ -46,13 +46,7 @@
 // let rounded = Math.round(randomNumber);
 // console.log(rounded);
 
-// Task1 4/6/23
-// var zakatPercentage = 0.025;
-// Here + sign convert the prompt(string) into number or we may use Number or parseInt before the prompt
-// var input = +prompt("Enter your value","Must be a number");
-// var result = zakatPercentage * input;
-//  alert("Your Zakat is "+result); 
-//  upper + shows concatenation
+// 
 
 
 // SMIT
@@ -106,6 +100,7 @@
 //     }
 // }
 // greet("Musfirah","Waseem");
+
 
 
 
