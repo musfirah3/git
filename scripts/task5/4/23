@@ -1,0 +1,81 @@
+// Task1:Check the entered year is leap year or not
+
+function leapYear() {
+    var date = prompt("Enter the year you want to check");
+    if (date % 4 != 0) {
+        alert("Your entered year is tropical")
+    }
+    else if (date % 4 == 0 && date % 100 != 0) {
+        alert("Tis is a leap year")
+    }
+    else if (date % 4 == 0 && date % 100 == 0 && date % 400 != 0) {
+        alert("You entered tropical year")
+    }
+    else {
+        alert("This year has a 366 days instead of 365")
+    }
+
+}
+leapYear();
+
+
+// Task2:Display the 10 upcoming leap years
+var year = prompt("please input a year to find out the next 10 years");
+
+function leapYearCalc() {
+    var year = prompt("please input a year to find out the next 10 years");
+    for (var i = 40; i >= 0; i--) {
+
+
+        if ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)) {
+            console.log(year);
+            year++;
+        }
+        else {
+            year++;
+        }
+    }
+}
+
+leapYearCalc();
+
+
+
+// Task:3 Function that generates optp
+function otpGenerator() {
+    var otp = Math.ceil(Math.random() * (Math.cos(234.98) * Math.sin(398.77) * Math.round(Math.random()) + Math.fround(7898)))
+    return "Your OTP is: M-" + otp
+}
+var final = otpGenerator();
+alert(final);
+
+
+// Task:4 That converts string into capitilized form 
+function convertor() {
+    var input = prompt("Enter any string");
+    var lowerCase = input.toLowerCase();
+    var capitalize = input[0].toUpperCase()
+    var show = capitalize + lowerCase.slice(1)
+    return show
+}
+var result = convertor()
+alert(result);
+
+
+
+
+// Task:4 Calculates age of the user
+function ageCalculator() {
+    var input = prompt("Enter your date of brith:YYYY:MM:DD");
+    var now = new Date();
+    var userInput = new Date(input);
+    var age = now.getFullYear() - userInput.getFullYear();
+    var monthDiff = now.getMonth() - userInput.getMonth();
+    if (monthDiff < 0 || (monthDiff === 0 && now.getDate() < userInput.getDate())) {
+        age--;
+    }
+    return age;
+}
+var finalAge = ageCalculator()
+alert("You are " + finalAge + " years old!");
+
